@@ -1,0 +1,19 @@
+.logo{
+    width: 40px;
+    height: auto;
+    margin: 10px;
+}
+.boton-menú{
+    background-color:blue;
+    color: white;
+}
+.boton-menú:hover{
+    background-color: gray;
+    color: white;
+}
+.contactos{
+    width: 30px;
+    height: auto;
+    margin: 10px;
+    cursor: pointer;
+}
