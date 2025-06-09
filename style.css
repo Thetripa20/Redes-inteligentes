@@ -2,6 +2,17 @@
     width: 40px;
     height: auto;
     margin: 10px;
+    border-radius: 60px;
+}
+.buscar{
+    background-color: #007acc;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    border-color: #003366;
+}
+.buscar:hover{
+    background-color: #003366;
 }
 .boton-menú{
     background-color:blue;
@@ -17,3 +28,83 @@
     margin: 10px;
     cursor: pointer;
 }
+/* Estilos generales del apartado */
+.about-section {
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #f0f4f8, #ffffff);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+/* Contenedor central */
+.about-section .container {
+  max-width: 900px;
+  margin: auto;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  padding: 40px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efecto hover opcional */
+.about-section .container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
+}
+
+/* Título principal */
+.about-section h2 {
+  color: #003366;
+  font-size: 32px;
+  margin-bottom: 25px;
+  border-left: 5px solid #007acc;
+  padding-left: 15px;
+}
+
+/* Párrafos */
+.about-section p {
+  font-size: 18px;
+  color: #444;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+/* Estilo para <strong> */
+.about-section p strong {
+  color: #007acc;
+}
+.news-section {
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    padding: 20px 30px;
+}
+
+.news-section h2 {
+    border-bottom: 3px solid #007acc;
+    padding-bottom: 10px;
+    color: #007acc;
+}
+
+.news-item {
+    margin-bottom: 25px;
+}
+
+.news-item h3 {
+    margin: 0 0 8px;
+    color: #005a9c;
+}
+
+.news-item p {
+    margin: 0 0 5px;
+    line-height: 1.5;
+}
+
+.news-item time {
+    font-size: 0.9em;
+    color: #666;
+}
+
