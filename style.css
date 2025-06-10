@@ -22,6 +22,17 @@
     background-color: gray;
     color: white;
 }
+.imagenes{
+  height: 100px;
+  width: 100px;
+  justify-content: center;
+  align-items: center;
+}
+/* reseñas */
+.centrar{
+  align-items: center;
+  justify-content: center;
+}
 .contactos{
     width: 30px;
     height: auto;
